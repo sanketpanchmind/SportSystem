@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+    font-family: "Parkinsans", sans-serif;
+}
+.text-main{
+    color: #007FFF;
+}
+.card .card-header{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: inset 0 0 0 0;
+    border: 0 !important;
+    margin: 10px 0;
+}
+
+
+.navbar{
+    background-color: #fff !important;
+}
+@media only screen and (max-width: 479px){
+    .navbar{
+        background-color: #007FFF !important;
+    }
+}

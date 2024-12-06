@@ -1,0 +1,118 @@
+// .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+//     border-color: #fff; 
+// }
+// .dropdown-menu[data-bs-popper] {
+//     top: 45px;
+//     left: 0;
+//     width: 100% !important;
+//     margin-top: var(--bs-dropdown-spacer);
+//     border: #fff;
+//     transition: 0.5s;
+// }
+
+// .dropdown-item:focus, .dropdown-item:hover {
+//     color: #fff !important;
+//     background-color: #720e9e;
+//     font-weight: 500;
+// }
+
+// .navbar img{
+//     width: 40px;
+// }
+
+// @media only screen and (max-width: 479px){
+//     .mobile-topbar-navbar,
+//     .mobile-topbar-navbar ul,
+//     .mobile-topbar-navbar ul li,
+//     .mobile-topbar-navbar ul li a 
+//     {
+//         width: 100% !important;
+//     }
+//     .mobile-topbar-navbar ul li{
+//         padding: 10px 5px;
+//         transition: 0.5s all;
+//     }
+//     .mobile-topbar-navbar ul li:hover{
+//         background-color: #007FFF;
+//         color: #fff;
+//         transition: 0.5s all;
+//     }
+//     .mobile-topbar-navbar ul li a{
+//         text-decoration: none;
+//         color: #000;
+//     }
+//     .mobile-topbar-navbar ul li a img{
+//         width: 20px;
+//     }
+// }
+
+
+
+// offcanvas sidebar for mobile view
+#offcanvasDarkNavbar{
+    background-color: #fff;
+}
+
+.navbar .dropdown img.profile_manager{
+    width: 40px;
+    height: 40px;
+}
+.navbar .dropdown .user-title,
+.navbar .dropdown .user-subtitle{
+    font-size: 0.85rem;
+    color: #000;
+}
+.dropdown-menu{
+    margin: 8px 0;
+    border-radius: 0;
+    border: none;
+    width: 100%;
+}
+.dropdown-item:hover{
+    background-color: #007FFF;
+    color: #fff;
+}
+.mobile-topbar-navbar,
+    .mobile-topbar-navbar ul,
+    .mobile-topbar-navbar ul li,
+    .mobile-topbar-navbar ul li a 
+    {
+        width: 100% !important;
+    }
+    .mobile-topbar-navbar ul li{
+        padding: 10px 5px;
+        color: #000;
+        transition: 0.3s all;
+    }
+    .mobile-topbar-navbar ul li:hover{
+        background-color: #007FFF;
+        color: #fff;
+        transition: 0.3s all;
+    }
+    .mobile-topbar-navbar ul li a{
+        color: #000;
+        text-decoration: none;
+        transition: 0.3s all;
+        padding: 0px 10px;
+    }
+    .mobile-topbar-navbar ul li:hover a{
+        color: #fff;
+        text-decoration: none;
+        transition: 0.3s all;
+    }
+    .mobile-topbar-navbar ul li a img{
+        width: 20px;
+    }
+
+
+
+    @media only screen and (max-width: 479px){
+        #offcanvasDarkNavbar{
+            background-color: #0077c0 !important;
+        }
+        .navbar .dropdown .user-title,
+.navbar .dropdown .user-subtitle{
+    font-size: 0.85rem;
+    color: #fff;
+}
+    }

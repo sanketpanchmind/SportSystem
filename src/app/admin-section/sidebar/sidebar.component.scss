@@ -1,0 +1,62 @@
+.sidebar{
+    display:  flex;
+    gap:2;
+    height: 100%;
+    overflow: hidden;
+    font-weight: 500;
+}
+.sidebar .sidebar-icons ul li,
+.sidebar .sidebar-menus-list ul li{
+    padding: 15px 0;
+    font-size: 0.85rem;
+}
+.sidebar a{
+    cursor: pointer;
+}
+.sidebar .sidebar-icons ul li img{
+    width: 18px;
+}
+// icons side css
+.sidebar .sidebar-icons{
+    background-color: #007FFF;
+    color: #fff;
+    width: 65px;
+    text-align: center;
+    padding: 0 10px;
+}
+.sidebar .sidebar-menus-list ul li:hover{
+    border-top-left-radius: 0;
+    background-color: #007FFF;
+    color: #fff;
+}
+// ******
+
+.sidebar .sidebar-menus-list {
+    width: 100%;
+    height: 100%;
+}
+.sidebar .sidebar-icons .title-text,
+.sidebar .sidebar-menus-list .title-text{
+    padding-bottom: 40px;
+    width: 100%;
+
+}
+
+.sidebar .sidebar-menus-list ul li a{
+    padding: 15px 8px;
+
+}
+
+
+.sidebar .title-text{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+// .sidebar .inner-sidebar{
+//     display: none;
+// }
+// .sidebar .sidebar-icons:hover .inner-sidebar{
+//     display: block;
+// }

@@ -1,0 +1,14 @@
+<div class="wrapper">
+    <div class="sidebar-wrapper"  (click)="toggle()">
+        <app-sidebar></app-sidebar>
+    </div>
+    <div class="content-wrapper">
+        <div class="data-container scrollbar">
+            <div class="container-fluid p-0">
+                
+                <app-maincontent></app-maincontent>
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+</div>
