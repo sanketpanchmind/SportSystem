@@ -1,16 +1,22 @@
 // ***************************
-.recent-best-performers,
+.card.recent-best-performers,
 .card.player-stats .card-body {
     border: 0;
-    margin-top: 20px;
+    margin: 10px 0;
     overflow-block: auto;
 }
 .card.player-stats{
     border-radius: 0;
     border: 0;
 }
+.card.player-stats .stats-count{
+    font-size: 1.2rem !important;
+}
+.player-img{
+    width: 100px;
+}
 .card.player-stats .card-body .player-nationality img {
-    width: 120px;
+    width: 70px;
 }
 
 .card.player-stats .card-body .player-nationality .player-name {
@@ -23,11 +29,11 @@
     font-size: 13px;
     font-weight: 500;
 }
-
-.card.player-stats .card.card-body .player-img {
-    position: absolute;
-    top: -10px;
-    width: 100px;
+.recent_best_performers span {
+    font-size: 0.85rem !important;
+}
+.recent_best_performers img {
+   width: 62px !important;
 }
 
 
@@ -43,6 +49,8 @@
     background-color: #6cb4ee96;
     color: #000;
     border-radius: 0;
+    height: 100%;
+    font-size: 0.85rem;
 }
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     color: #fff;
@@ -54,11 +62,18 @@
 
 
 @media only screen and (max-width:479px) {
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
+        background-color: #6cb4ee96;
+        color: #000;
+        border-radius: 0;
+        height: 100%;
+        font-size: 0.65rem;
+    }
     .card.player-stats .card-body .player-nationality img {
         width: 80px;
     }
 
-    .player-stats .user-img {
+    .player-stats .player-img {
         width: 70px;
     }
 }
